@@ -21,7 +21,7 @@
   "version": "3.4.0",
   "frameworks": {
     "arduino": {
-      "package": "framework-arduinoespressif32",
+      "package": "framework-arduinoespressifcustom",
       "script": "builder/frameworks/arduino.py"
     },
     "espidf": {
@@ -95,7 +95,7 @@
       "owner": "espressif",
       "version": "8.4.0+2021r1"
     },
-    "framework-arduinoespressif32": {
+    "framework-arduinoespressifcustom": {
       "type": "framework",
       "optional": true,
       "owner": "platformio",
