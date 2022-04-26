@@ -1,5 +1,5 @@
 {
-  "name": "espressif32custom",
+  "name": "espressif32",
   "title": "Espressif 32",
   "description": "Espressif Systems is a privately held fabless semiconductor company. They provide wireless communications and Wi-Fi chips which are widely used in mobile devices and the Internet of Things applications.",
   "homepage": "https://espressif.com/",
@@ -21,7 +21,7 @@
   "version": "3.4.0",
   "frameworks": {
     "arduino": {
-      "package": "framework-arduinoespressifcustom",
+      "package": "framework-arduinoespressif32",
       "script": "builder/frameworks/arduino.py"
     },
     "espidf": {
@@ -95,7 +95,7 @@
       "owner": "espressif",
       "version": "8.4.0+2021r1"
     },
-    "framework-arduinoespressifcustom": {
+    "framework-arduinoespressif32": {
       "type": "framework",
       "optional": true,
       "owner": "platformio",
